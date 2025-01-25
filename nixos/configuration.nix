@@ -69,6 +69,11 @@
 
   # FIXME: Add the rest of your current configuration
 
+  # Bootloader.
+  boot.loader.grub.enable = true;
+  boot.loader.grub.device = "/dev/vda";
+  boot.loader.grub.useOSProber = true;
+
   # TODO: Set your hostname
   networking.hostName = "desktop";
 
